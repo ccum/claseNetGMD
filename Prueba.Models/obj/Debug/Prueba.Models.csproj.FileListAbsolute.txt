@@ -1,0 +1,5 @@
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.Models\bin\Debug\Prueba.Models.dll
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.Models\bin\Debug\Prueba.Models.pdb
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.Models\obj\Debug\Prueba.Models.csprojResolveAssemblyReference.cache
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.Models\obj\Debug\Prueba.Models.dll
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.Models\obj\Debug\Prueba.Models.pdb

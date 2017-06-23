@@ -1,0 +1,14 @@
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.DAO\bin\Debug\Prueba.DAO.dll.config
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.DAO\bin\Debug\Prueba.DAO.dll
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.DAO\bin\Debug\Prueba.DAO.pdb
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.DAO\bin\Debug\EntityFramework.dll
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.DAO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.DAO\bin\Debug\Prueba.Infraestructura.dll
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.DAO\bin\Debug\Prueba.Models.dll
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.DAO\bin\Debug\Prueba.Infraestructura.pdb
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.DAO\bin\Debug\Prueba.Models.pdb
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.DAO\bin\Debug\EntityFramework.xml
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.DAO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.DAO\obj\Debug\3Prueba.DAO.csprojResolveAssemblyReference.cache
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.DAO\obj\Debug\Prueba.DAO.dll
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.DAO\obj\Debug\Prueba.DAO.pdb

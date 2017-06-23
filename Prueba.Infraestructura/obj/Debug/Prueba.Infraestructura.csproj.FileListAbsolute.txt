@@ -1,0 +1,5 @@
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.Infraestructura\bin\Debug\Prueba.Infraestructura.dll
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.Infraestructura\bin\Debug\Prueba.Infraestructura.pdb
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.Infraestructura\obj\Debug\Prueba.Infraestructura.csprojResolveAssemblyReference.cache
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.Infraestructura\obj\Debug\Prueba.Infraestructura.dll
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.Infraestructura\obj\Debug\Prueba.Infraestructura.pdb

@@ -1,0 +1,13 @@
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.BL\bin\Debug\Prueba.BL.dll
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.BL\bin\Debug\Prueba.BL.pdb
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.BL\bin\Debug\Prueba.DAO.dll
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.BL\bin\Debug\Prueba.Infraestructura.dll
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.BL\bin\Debug\Prueba.Models.dll
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.BL\bin\Debug\Prueba.DAO.pdb
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.BL\bin\Debug\Prueba.Infraestructura.pdb
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.BL\bin\Debug\Prueba.Models.pdb
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.BL\obj\Debug\2Prueba.BL.csprojResolveAssemblyReference.cache
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.BL\obj\Debug\Prueba.BL.dll
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.BL\obj\Debug\Prueba.BL.pdb
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.BL\bin\Debug\EntityFramework.dll
+C:\Users\AdminPC\Documents\Visual Studio 2015\Projects\claseNetGMD\Prueba.BL\bin\Debug\EntityFramework.xml
