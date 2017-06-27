@@ -23,6 +23,22 @@ namespace Prueba.DAO.Repositories
            Alumno result = contex.Alumnos.Where(s => s.AlumnoId == Id).FirstOrDefault();
             return result;
         }
+        public int Crear(Alumno alumno)
+        {
+
+            Alumno result = contex.Alumnos.Add(alumno);
+            contex.SaveChanges();
+            return result.AlumnoId;
+        }
+
+        public int Editar(Alumno alumno)
+        {
+            ///Alumno result = contex.Alumnos.en(alumno);
+            //contex.SaveChanges();
+            //return result.AlumnoId;
+
+            return 0;
+        }
 
     }
 }

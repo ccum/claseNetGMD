@@ -1,4 +1,5 @@
-﻿using Prueba.Models;
+﻿using Prueba.DAO.Repositories;
+using Prueba.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,17 +10,25 @@ namespace Prueba.BL.Services
 {
     public class AlumnosService
     {
+        AlumnoRepository repositorio = null;
+        public AlumnosService()
+        {
+            repositorio = new AlumnoRepository();
+        }
         public List<Alumno> Listar()
         {
-            return null;
+            return repositorio.Listar();
         }
         public Alumno BuscarPorId(int alumnoID)
         {
-            return null;
+            return repositorio.BuscarPorId(alumnoID);
         }
 
         public Boolean Crear(Alumno alumno)
         {
+            int result = repositorio.Crear(alumno);
+            if (result > 0)
+                return true;
             return false;
         }
 
