@@ -24,7 +24,7 @@ namespace Prueba.BL.Services
             return repositorio.BuscarPorId(alumnoID);
         }
 
-        public Boolean Crear(Alumno alumno)
+        public bool Crear(Alumno alumno)
         {
             int result = repositorio.Crear(alumno);
             if (result > 0)
@@ -34,7 +34,11 @@ namespace Prueba.BL.Services
 
         public Boolean Editar(Alumno alumno)
         {
-            return false;
+            Alumno sinCambios = repositorio.BuscarPorId(alumno.AlumnoId);
+            sinCambios.Apellido = alumno.Apellido;
+            sinCambios.Cumpleaño = alumno.Cumpleaño;
+            sinCambios.Nombre = alumno.Nombre;
+            return repositorio.Editar(sinCambios);
         }
 
     }

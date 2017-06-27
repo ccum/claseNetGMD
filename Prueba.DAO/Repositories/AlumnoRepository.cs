@@ -1,6 +1,7 @@
 ﻿using Prueba.Models;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +13,7 @@ namespace Prueba.DAO.Repositories
         Contexto contex = null;
         public AlumnoRepository()
         {
-            Contexto contex= new Contexto();
+            contex= new Contexto();
         }
         public List<Alumno> Listar()
         {
@@ -31,13 +32,18 @@ namespace Prueba.DAO.Repositories
             return result.AlumnoId;
         }
 
-        public int Editar(Alumno alumno)
+        public bool Editar(Alumno alumno)
         {
-            ///Alumno result = contex.Alumnos.en(alumno);
-            //contex.SaveChanges();
-            //return result.AlumnoId;
+            contex.Entry(alumno).State = EntityState.Modified;
+            contex.SaveChanges();
+            return true;
+        }
 
-            return 0;
+        public void Eliminar(int id)
+        {
+            Alumno result = contex.Alumnos.Where(s => s.AlumnoId == id).FirstOrDefault();
+            contex.Alumnos.Remove(result);
+            contex.SaveChanges();
         }
 
     }

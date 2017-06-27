@@ -270,10 +270,12 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Clase\Index.cshtml" />
+    <Content Include="Views\Alumno\Index.cshtml" />
+    <Content Include="Views\Alumno\Crear.cshtml" />
+    <Content Include="Views\Alumno\Editar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Alumno\" />
     <Folder Include="Views\Curso\" />
   </ItemGroup>
   <ItemGroup>
