@@ -11,14 +11,19 @@ namespace Prueba.Web.Controllers
     public class MatriculaController : Controller
     {
         MatriculaService service = null;
+        AlumnosService alumnoService = null;
         public MatriculaController()
         {
             service = new MatriculaService();
+            alumnoService = new AlumnosService();
         }
         // GET: Matricula
         public ActionResult Index(int id)
         {
-            List<Matricula> lista = service.Listar();
+            List<Matricula> lista = service.ListadoPorAlumno(id);
+            Alumno alumno = alumnoService.BuscarPorId(id);
+            ViewBag.NombreAlumno = alumno.Apellido + " " + alumno.Nombre; 
+            ViewBag.AlumnoId = id;
             return View(lista);
         }
 
@@ -29,9 +34,11 @@ namespace Prueba.Web.Controllers
         }
 
         // GET: Matricula/Create
-        public ActionResult Create()
+        public ActionResult Create(int IdAlumno)
         {
-            return View();
+            Matricula mat = new Matricula();
+            mat.AlumnoId = IdAlumno;
+            return View(mat);
         }
 
         // POST: Matricula/Create
@@ -40,7 +47,7 @@ namespace Prueba.Web.Controllers
         {
             bool result = service.Crear(matricula);
             if (result)
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", new { id = matricula.AlumnoId });
             else
                 return View(matricula);
         }

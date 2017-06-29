@@ -32,6 +32,10 @@ namespace Prueba.DAO.Repositories
                 return false;
             }
         }
+        public List<Matricula> ListadoPorAlumno(int alumnoID)
+        {
+            return contex.Matriculas.Where(s => s.AlumnoId == alumnoID).ToList();
+        }
 
     }
 }

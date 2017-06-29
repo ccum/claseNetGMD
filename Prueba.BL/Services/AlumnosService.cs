@@ -1,4 +1,5 @@
-﻿using Prueba.DAO.Repositories;
+﻿using Prueba.DAO.Interfaces;
+using Prueba.DAO.Repositories;
 using Prueba.Models;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,7 @@ namespace Prueba.BL.Services
 {
     public class AlumnosService
     {
-        AlumnoRepository repositorio = null;
+        IAlumnoRepository repositorio = null;
         public AlumnosService()
         {
             repositorio = new AlumnoRepository();

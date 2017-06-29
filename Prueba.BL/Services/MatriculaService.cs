@@ -21,7 +21,12 @@ namespace Prueba.BL.Services
         }
         public bool Crear(Matricula matricula)
         {
+            matricula.FechaMatricula = DateTime.Now;
             return repositorio.Crear(matricula);
+        }
+        public List<Matricula> ListadoPorAlumno(int alumnoID)
+        {
+            return repositorio.ListadoPorAlumno(alumnoID);
         }
     }
 }
