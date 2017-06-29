@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Prueba.Models.Matricula>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaMatricula)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AlumnoId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CursoId)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaMatricula)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AlumnoId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CursoId)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MatriculaId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MatriculaId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MatriculaId })
+        </td>
+    </tr>
+}
+
+</table>
